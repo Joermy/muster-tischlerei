@@ -1,0 +1,176 @@
+html.js-bewegung .einblenden {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.9s var(--kurve), transform 0.9s var(--kurve);
+}
+
+html.js-bewegung .einblenden.ist-sichtbar {
+  opacity: 1;
+  transform: none;
+}
+
+html.js-bewegung .freilegen > * {
+  clip-path: inset(0 0 100% 0);
+  transition: clip-path 1.1s var(--kurve);
+  transition-delay: inherit;
+}
+
+html.js-bewegung .freilegen.ist-sichtbar > * {
+  clip-path: inset(0 0 0 0);
+}
+
+html.js-bewegung .einblenden.ist-fertig {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+html.js-bewegung .freilegen.ist-fertig > * {
+  clip-path: inset(0 0 0 0) !important;
+  transition: none !important;
+}
+
+.folge {
+  position: relative;
+  height: 260vh;
+}
+
+.folge__buehne {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.folge__bild {
+  width: min(86vmin, 980px);
+  aspect-ratio: 3 / 2;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--flaeche-2);
+}
+
+.folge__bild > * {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.12s linear;
+}
+
+.folge__bild img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.folge__bild > .ist-dran {
+  opacity: 1;
+}
+
+.folge__text {
+  position: absolute;
+  left: var(--seitenrand);
+  bottom: var(--sp-8);
+  max-width: 34ch;
+  z-index: 1;
+}
+
+.folge__schritte {
+  position: absolute;
+  right: var(--seitenrand);
+  bottom: var(--sp-8);
+  z-index: 1;
+  display: grid;
+  gap: var(--sp-2);
+  font-size: var(--fs-meta);
+  text-align: right;
+}
+
+.folge__schritt {
+  color: var(--muted);
+  opacity: 0.45;
+  transition: opacity 0.3s var(--kurve), color 0.3s var(--kurve);
+}
+
+.folge__schritt.ist-dran {
+  opacity: 1;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.folge__strich {
+  position: absolute;
+  left: var(--seitenrand);
+  right: var(--seitenrand);
+  bottom: var(--sp-5);
+  height: 2px;
+  background: var(--rand);
+  z-index: 1;
+}
+
+.folge__strich::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 100%;
+  background: var(--akzent);
+  transform: scaleX(var(--anteil, 0));
+  transform-origin: 0 50%;
+}
+
+@media (max-width: 760px) {
+  .folge__schritte,
+  .folge__strich { display: none; }
+}
+
+@media (max-width: 760px) {
+  .folge { height: auto; }
+  .folge__buehne { position: static; height: auto; padding-block: var(--sp-8); }
+  .folge__text { position: static; margin-top: var(--sp-6); }
+  .folge__bild { aspect-ratio: auto; display: grid; gap: var(--sp-4); }
+  .folge__bild > * { position: static; opacity: 1; }
+  .folge__bild img { aspect-ratio: 3 / 2; border-radius: 4px; }
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root) {
+  animation: seite-weg 0.28s ease both;
+}
+
+::view-transition-new(root) {
+  animation: seite-her 0.42s var(--kurve) both;
+}
+
+@keyframes seite-weg {
+  to { opacity: 0; }
+}
+
+@keyframes seite-her {
+  from { opacity: 0; transform: translateY(10px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.js-bewegung .einblenden,
+  html.js-bewegung .freilegen,
+  html.js-bewegung .freilegen > * {
+    opacity: 1 !important;
+    transform: none !important;
+    clip-path: none !important;
+    transition: none !important;
+  }
+
+  .folge { height: auto; }
+  .folge__buehne { position: static; height: auto; }
+  .folge__bild > * { transition: none; }
+
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
+}

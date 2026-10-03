@@ -1,0 +1,338 @@
+.knopf {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: 14px 26px;
+  border: 1px solid var(--text);
+  border-radius: 999px;
+  background: var(--text);
+  color: var(--bg);
+  font: inherit;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.35s var(--kurve), color 0.35s var(--kurve),
+              border-color 0.35s var(--kurve);
+}
+
+.knopf:hover,
+.knopf:focus-visible {
+  background: var(--akzent);
+  border-color: var(--akzent);
+  color: #fff;
+}
+
+.knopf--leer {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--rand);
+}
+
+.knopf--leer:hover,
+.knopf--leer:focus-visible {
+  background: transparent;
+  border-color: var(--text);
+  color: var(--text);
+}
+
+.knopf svg {
+  transition: transform 0.35s var(--kurve);
+}
+
+.knopf:hover svg,
+.knopf:focus-visible svg {
+  transform: translateX(3px);
+}
+
+.leistung {
+  padding-top: var(--sp-5);
+  border-top: 1px solid var(--rand);
+}
+
+.leistung__nummer {
+  font-size: var(--fs-meta);
+  font-variant-numeric: tabular-nums;
+  color: var(--akzent);
+  margin-bottom: var(--sp-3);
+}
+
+.leistung h3 {
+  margin-bottom: var(--sp-3);
+}
+
+.leistung p {
+  color: var(--muted);
+}
+
+.projekt {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.projekt__bild {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  background: var(--flaeche-2);
+  aspect-ratio: 4 / 3;
+}
+
+.projekt__bild img,
+.projekt__platte {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.9s var(--kurve);
+}
+
+.projekt:hover .projekt__bild img,
+.projekt:focus-visible .projekt__bild img,
+.projekt:hover .projekt__platte,
+.projekt:focus-visible .projekt__platte {
+  transform: scale(1.04);
+}
+
+.projekt__platte {
+  display: grid;
+  place-content: center;
+  gap: var(--sp-2);
+  text-align: center;
+  background:
+    linear-gradient(160deg, #e7ddcd 0%, #d8cab4 55%, #c9b79c 100%);
+  color: rgba(26, 24, 21, 0.55);
+}
+
+.projekt__platte b {
+  font-size: clamp(1.75rem, 1rem + 3vw, 3rem);
+  letter-spacing: -0.04em;
+  color: rgba(26, 24, 21, 0.38);
+}
+
+.projekt__zeile {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  margin-top: var(--sp-4);
+}
+
+.projekt__titel {
+  font-size: var(--fs-h3);
+  font-weight: 600;
+}
+
+.projekt__meta {
+  font-size: var(--fs-meta);
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+@media (max-width: 560px) {
+  .projekt__zeile {
+    display: block;
+  }
+
+  .projekt__meta {
+    display: block;
+    margin-top: var(--sp-1);
+    white-space: normal;
+  }
+}
+
+.kennzahlen {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--sp-6);
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .kennzahlen { grid-template-columns: 1fr; gap: var(--sp-5); }
+}
+
+.kennzahl {
+  padding-top: var(--sp-4);
+  border-top: 1px solid var(--rand);
+}
+
+.kennzahl dt {
+  font-size: var(--fs-meta);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: var(--sp-2);
+}
+
+.kennzahl dd {
+  margin: 0;
+  font-size: clamp(2rem, 1.2rem + 2.6vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+}
+
+.kennzahl dd span {
+  font-size: 0.4em;
+  font-weight: 600;
+  color: var(--muted);
+  margin-left: 0.2em;
+}
+
+.muster {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: var(--sp-4);
+}
+
+.muster__feld {
+  position: relative;
+  aspect-ratio: 1;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: default;
+}
+
+.muster__farbe {
+  position: absolute;
+  inset: 0;
+  transition: transform 0.7s var(--kurve);
+}
+
+.muster__feld:hover .muster__farbe,
+.muster__feld:focus-within .muster__farbe {
+  transform: scale(1.06);
+}
+
+.muster__name {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: var(--sp-3) var(--sp-4);
+  background: rgba(26, 24, 21, 0.86);
+  color: var(--bg);
+  font-size: var(--fs-meta);
+  transform: translateY(100%);
+  transition: transform 0.45s var(--kurve);
+}
+
+.muster__feld:hover .muster__name,
+.muster__feld:focus-within .muster__name {
+  transform: translateY(0);
+}
+
+@media (hover: none) {
+  .muster__name { transform: translateY(0); }
+}
+
+.klapp {
+  border-top: 1px solid var(--rand);
+}
+
+.klapp__knopf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  width: 100%;
+  padding: var(--sp-5) 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  font-size: var(--fs-h3);
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+
+.klapp__zeichen {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  position: relative;
+}
+
+.klapp__zeichen::before,
+.klapp__zeichen::after {
+  content: "";
+  position: absolute;
+  inset: 50% 0 auto 0;
+  height: 1.5px;
+  background: currentColor;
+  transition: transform 0.4s var(--kurve);
+}
+
+.klapp__zeichen::after {
+  transform: rotate(90deg);
+}
+
+.klapp__knopf[aria-expanded="true"] .klapp__zeichen::after {
+  transform: rotate(0deg);
+}
+
+.klapp__inhalt {
+  overflow: hidden;
+  height: 0;
+  transition: height 0.45s var(--kurve);
+}
+
+.klapp__inhalt > div {
+  padding-bottom: var(--sp-5);
+  color: var(--muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .klapp__inhalt { transition: none; }
+}
+
+.aussage {
+  font-size: var(--fs-h2);
+  font-weight: 700;
+  letter-spacing: -0.028em;
+  line-height: 1.12;
+  max-width: 20ch;
+}
+
+.aussage em {
+  font-style: normal;
+  color: var(--akzent);
+}
+
+.zitat {
+  border-left: 2px solid var(--akzent);
+  padding-left: var(--sp-5);
+}
+
+.zitat p {
+  font-size: var(--fs-lead);
+}
+
+.zitat footer {
+  margin-top: var(--sp-3);
+  font-size: var(--fs-meta);
+  color: var(--muted);
+}
+
+.kontaktliste dt {
+  font-size: var(--fs-meta);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: var(--sp-1);
+}
+
+.kontaktliste dd {
+  margin: 0 0 var(--sp-5);
+  font-size: var(--fs-lead);
+}
+
+.kontaktliste a {
+  text-decoration-color: var(--rand);
+}
+
+.kontaktliste a:hover {
+  text-decoration-color: currentColor;
+}

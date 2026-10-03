@@ -1,0 +1,389 @@
+{
+ "lizenz": {
+  "quelle": "Unsplash",
+  "name": "Unsplash-Lizenz",
+  "url": "https://unsplash.com/license",
+  "hinweis": "Kostenfrei nutzbar, auch gewerblich, ohne Genehmigung und ohne Pflicht zur Namensnennung. Die Nennung erfolgt hier freiwillig. Nicht erlaubt: Weiterverkauf unveraenderter Kopien, Aufbau eines konkurrierenden Bilddienstes."
+ },
+ "bilder": [
+  {
+   "datei": "hero-werkstatt",
+   "slug": "PxlKOcj0a3Q",
+   "kid": "photo-1687422810663-c316494f725a",
+   "autor": "Ali Mkumbwa",
+   "profil": "https://unsplash.com/@mkumbwajr",
+   "quelle": "https://unsplash.com/photos/PxlKOcj0a3Q",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    900,
+    1500,
+    2100
+   ],
+   "alt": "Tischler bei der Arbeit an einem Werkstueck in der Werkstatt"
+  },
+  {
+   "datei": "folge-1",
+   "slug": "v13x0qU4afA",
+   "kid": "photo-1590880795696-20c7dfadacde",
+   "autor": "Adam Patterson",
+   "profil": "https://unsplash.com/@adampatterson",
+   "quelle": "https://unsplash.com/photos/v13x0qU4afA",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    760,
+    1300
+   ],
+   "alt": "Zeichnung, Bleistift und Massband auf einer Werkbank"
+  },
+  {
+   "datei": "folge-2",
+   "slug": "CQ2FSZ0Km2s",
+   "kid": "photo-1678184095759-db539ff697a2",
+   "autor": "Muhammad Ateeb",
+   "profil": "https://unsplash.com/@tirifid",
+   "quelle": "https://unsplash.com/photos/CQ2FSZ0Km2s",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    760,
+    1300
+   ],
+   "alt": "Gestapelte Bretter auf dem Werkstattboden"
+  },
+  {
+   "datei": "folge-3",
+   "slug": "JQtQ7wvf7qM",
+   "kid": "photo-1678184095566-3980f43c41eb",
+   "autor": "Muhammad Ateeb",
+   "profil": "https://unsplash.com/@tirifid",
+   "quelle": "https://unsplash.com/photos/JQtQ7wvf7qM",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    760,
+    1300
+   ],
+   "alt": "Saegeblatt kurz vor dem Schnitt in ein Brett"
+  },
+  {
+   "datei": "folge-4",
+   "slug": "dhFpe7CTI5Y",
+   "kid": "photo-1683115099860-5379ac101bce",
+   "autor": "Ryno Marais",
+   "profil": "https://unsplash.com/@ryno_marais",
+   "quelle": "https://unsplash.com/photos/dhFpe7CTI5Y",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    760,
+    1300
+   ],
+   "alt": "Tischler fuehrt eine Handkreissaege durch ein Brett"
+  },
+  {
+   "datei": "folge-5",
+   "slug": "mLO6ILUbADA",
+   "kid": "photo-1561297331-a9c00b9c2c44",
+   "autor": "Paul Trienekens",
+   "profil": "https://unsplash.com/@paultrienekens",
+   "quelle": "https://unsplash.com/photos/mLO6ILUbADA",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    760,
+    1300
+   ],
+   "alt": "Schleifen einer Holzoberflaeche mit dem Exzenterschleifer"
+  },
+  {
+   "datei": "folge-6",
+   "slug": "42eUGq_IOow",
+   "kid": "photo-1683115098516-9b8d5c643b5b",
+   "autor": "Ryno Marais",
+   "profil": "https://unsplash.com/@ryno_marais",
+   "quelle": "https://unsplash.com/photos/42eUGq_IOow",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    760,
+    1300
+   ],
+   "alt": "Handwerkzeuge haengen geordnet an einer Werkstattwand"
+  },
+  {
+   "datei": "folge-7",
+   "slug": "HjFUevA2g1k",
+   "kid": "photo-1605125626499-e2c7efbd1ab3",
+   "autor": "Nico Smit",
+   "profil": "https://unsplash.com/@nicosmit99",
+   "quelle": "https://unsplash.com/photos/HjFUevA2g1k",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    760,
+    1300
+   ],
+   "alt": "Fertiges Regal aus massivem Holz an einer Wand"
+  },
+  {
+   "datei": "projekt-schrank",
+   "slug": "1mCKXa8fsWA",
+   "kid": "photo-1785395407788-71b829c98bb4",
+   "autor": "Maverick Frame",
+   "profil": "https://unsplash.com/@maverickframe",
+   "quelle": "https://unsplash.com/photos/1mCKXa8fsWA",
+   "verhaeltnis": "4:3",
+   "breiten": [
+    600,
+    1200
+   ],
+   "alt": "Eingebauter Schrank mit offenen Holzfaechern"
+  },
+  {
+   "datei": "projekt-kueche",
+   "slug": "JDBVXignFdA",
+   "kid": "photo-1512916194211-3f2b7f5f7de3",
+   "autor": "Frames For Your Heart",
+   "profil": "https://unsplash.com/@framesforyourheart",
+   "quelle": "https://unsplash.com/photos/JDBVXignFdA",
+   "verhaeltnis": "4:3",
+   "breiten": [
+    600,
+    1200
+   ],
+   "alt": "Kuechenzeile mit Fronten aus warmem Holz"
+  },
+  {
+   "datei": "projekt-bibliothek",
+   "slug": "JzrpTIuooFc",
+   "kid": "photo-1594620302200-9a762244a156",
+   "autor": "Pickawood",
+   "profil": "https://unsplash.com/@pickawood",
+   "quelle": "https://unsplash.com/photos/JzrpTIuooFc",
+   "verhaeltnis": "4:3",
+   "breiten": [
+    600,
+    1200
+   ],
+   "alt": "Raumhohe Regalwand aus Holz neben einem Fenster"
+  },
+  {
+   "datei": "projekt-tueren",
+   "slug": "B9KcyJ7K-DY",
+   "kid": "photo-1603673298820-40d77252226d",
+   "autor": "Domingo Alvarez E",
+   "profil": "https://unsplash.com/@domingoalvarze",
+   "quelle": "https://unsplash.com/photos/B9KcyJ7K-DY",
+   "verhaeltnis": "4:3",
+   "breiten": [
+    600,
+    1200
+   ],
+   "alt": "Holztuer vor heller Wand"
+  },
+  {
+   "datei": "holz-eiche",
+   "slug": "JH_R66BihvA",
+   "kid": "photo-1611072337226-1140ab367200",
+   "autor": "simon",
+   "profil": "https://unsplash.com/@simon_berger",
+   "quelle": "https://unsplash.com/photos/JH_R66BihvA",
+   "verhaeltnis": "1:1",
+   "breiten": [
+    280,
+    560
+   ],
+   "alt": "Maserung von heller Eiche"
+  },
+  {
+   "datei": "holz-nussbaum",
+   "slug": "J2gEgTPM_OA",
+   "kid": "photo-1576092762791-dd9e2220abd1",
+   "autor": "Nathan Dumlao",
+   "profil": "https://unsplash.com/@nate_dumlao",
+   "quelle": "https://unsplash.com/photos/J2gEgTPM_OA",
+   "verhaeltnis": "1:1",
+   "breiten": [
+    280,
+    560
+   ],
+   "alt": "Maserung von dunklem Nussbaum"
+  },
+  {
+   "datei": "holz-esche",
+   "slug": "0H2v0Uec7Zk",
+   "kid": "photo-1564512533667-015a90133f04",
+   "autor": "Stephanie Moody",
+   "profil": "https://unsplash.com/@stephanie_moody",
+   "quelle": "https://unsplash.com/photos/0H2v0Uec7Zk",
+   "verhaeltnis": "1:1",
+   "breiten": [
+    280,
+    560
+   ],
+   "alt": "Maserung von heller Esche"
+  },
+  {
+   "datei": "holz-kirschbaum",
+   "slug": "5xSOdGm_Aj8",
+   "kid": "photo-1772669179338-86db9d24d08f",
+   "autor": "James Wainscoat",
+   "profil": "https://unsplash.com/@tumbao1949",
+   "quelle": "https://unsplash.com/photos/5xSOdGm_Aj8",
+   "verhaeltnis": "1:1",
+   "breiten": [
+    280,
+    560
+   ],
+   "alt": "Warme, rotbraune Holzmaserung"
+  },
+  {
+   "datei": "holz-ahorn",
+   "slug": "2ZX2HqdxcC8",
+   "kid": "photo-1776278515712-9d5753884f5f",
+   "autor": "Compagnons",
+   "profil": "https://unsplash.com/@sigmund",
+   "quelle": "https://unsplash.com/photos/2ZX2HqdxcC8",
+   "verhaeltnis": "1:1",
+   "breiten": [
+    280,
+    560
+   ],
+   "alt": "Helle, feine Holzmaserung"
+  },
+  {
+   "datei": "leistung-moebel",
+   "slug": "Te4ydsYZTKs",
+   "kid": "photo-1766431046012-8640871a2967",
+   "autor": "Annie Spratt",
+   "profil": "https://unsplash.com/@anniespratt",
+   "quelle": "https://unsplash.com/photos/Te4ydsYZTKs",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    520,
+    1040
+   ],
+   "alt": "Arbeitsplatz unter der Dachschraege mit Holzmoebeln"
+  },
+  {
+   "datei": "leistung-innenausbau",
+   "slug": "Kva4Gt6Xq5E",
+   "kid": "photo-1723258344172-0af23318a4a5",
+   "autor": "Alex Tyson",
+   "profil": "https://unsplash.com/@alextyson195",
+   "quelle": "https://unsplash.com/photos/Kva4Gt6Xq5E",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    520,
+    1040
+   ],
+   "alt": "Raum mit eingebauten Holzregalen"
+  },
+  {
+   "datei": "leistung-kueche",
+   "slug": "AQl-J19ocWE",
+   "kid": "photo-1502005097973-6a7082348e28",
+   "autor": "Jason Briscoe",
+   "profil": "https://unsplash.com/@jsnbrsc",
+   "quelle": "https://unsplash.com/photos/AQl-J19ocWE",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    520,
+    1040
+   ],
+   "alt": "Kuecheninsel mit Schrankfronten aus Holz"
+  },
+  {
+   "datei": "leistung-tueren",
+   "slug": "dJycgkec2p0",
+   "kid": "photo-1536160885591-301854e2ed04",
+   "autor": "Sophie Dale",
+   "profil": "https://unsplash.com/@allthestars",
+   "quelle": "https://unsplash.com/photos/dJycgkec2p0",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    520,
+    1040
+   ],
+   "alt": "Dunkle Innentuer mit vier Fuellungen"
+  },
+  {
+   "datei": "leistung-restaurierung",
+   "slug": "4SvxBUfT-_c",
+   "kid": "photo-1542020383883-6c6b2a343807",
+   "autor": "Joel & Jasmin Førestbird",
+   "profil": "https://unsplash.com/@theforestbirds",
+   "quelle": "https://unsplash.com/photos/4SvxBUfT-_c",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    520,
+    1040
+   ],
+   "alt": "Nahaufnahme einer alten Holztuer mit Gebrauchsspuren"
+  },
+  {
+   "datei": "leistung-reparatur",
+   "slug": "CA-YN7tXDHg",
+   "kid": "photo-1546531537-3884727f20d4",
+   "autor": "marine Dumay",
+   "profil": "https://unsplash.com/@marineiscooking",
+   "quelle": "https://unsplash.com/photos/CA-YN7tXDHg",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    520,
+    1040
+   ],
+   "alt": "Stechbeitel auf Hobelspaenen neben einem Werkstueck"
+  },
+  {
+   "datei": "werkstatt-portraet",
+   "slug": "38OOhn_R6aA",
+   "kid": "photo-1546964432-2ca7fcd08632",
+   "autor": "Vance Osterhout",
+   "profil": "https://unsplash.com/@rankandfiledostoevsky",
+   "quelle": "https://unsplash.com/photos/38OOhn_R6aA",
+   "verhaeltnis": "4:5",
+   "breiten": [
+    560,
+    1120
+   ],
+   "alt": "Schwarzweissaufnahme einer Person an der Gehrungssaege"
+  },
+  {
+   "datei": "werkstatt-arbeit",
+   "slug": "DfffcjQ106U",
+   "kid": "photo-1631396326838-de37e5f8bcbc",
+   "autor": "Bailey Alexander",
+   "profil": "https://unsplash.com/@baileyal3xander",
+   "quelle": "https://unsplash.com/photos/DfffcjQ106U",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    660,
+    1320
+   ],
+   "alt": "Tischler beim Ausrichten eines Werkstuecks"
+  },
+  {
+   "datei": "werkstatt-hobel",
+   "slug": "o14nNEbLa-s",
+   "kid": "photo-1414497729697-b8555ba6c1cc",
+   "autor": "Mike Kenneally",
+   "profil": "https://unsplash.com/@asthetik",
+   "quelle": "https://unsplash.com/photos/o14nNEbLa-s",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    660,
+    1320
+   ],
+   "alt": "Handhobel und Stechbeitel auf einer Werkbank"
+  },
+  {
+   "datei": "kontakt-spaene",
+   "slug": "hdW4rZPHe2g",
+   "kid": "photo-1470342495351-a5f90c5011cd",
+   "autor": "Clem Onojeghuo",
+   "profil": "https://unsplash.com/@clemono",
+   "quelle": "https://unsplash.com/photos/hdW4rZPHe2g",
+   "verhaeltnis": "3:2",
+   "breiten": [
+    660,
+    1320
+   ],
+   "alt": "Saegespaene auf einer Bohle"
+  }
+ ]
+}
